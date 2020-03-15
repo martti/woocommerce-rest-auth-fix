@@ -23,7 +23,7 @@
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
-	die;
+  die;
 }
 
 add_action('admin_menu', 'wcraf_setup_menu');
@@ -136,5 +136,5 @@ function wcraf_fix_authentication() {
 
     list($_SERVER['PHP_AUTH_USER'], $_SERVER['PHP_AUTH_PW']) = explode(':', base64_decode(substr($_SERVER['REDIRECT_HTTP_AUTHORIZATION'], 6)));
 
-	}
+  }
 }
