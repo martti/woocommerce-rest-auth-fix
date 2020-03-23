@@ -14,6 +14,8 @@ Fixes REDIRECT_HTTP_AUTHORIZATION
 
 == Installation ==
 
+1. Create installation package: git archive --worktree-attributes -v --format zip -o ../woocommerce-rest-auth-fix.zip HEAD
+
 == Frequently Asked Questions ==
 
 == Screenshots ==
